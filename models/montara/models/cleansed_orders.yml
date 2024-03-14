@@ -1,0 +1,13 @@
+version: 2
+models:
+  - name: cleansed_orders
+    description: ""
+    config:
+      materialized: table
+      table_type: iceberg
+      format: parquet
+    columns: []
+    meta:
+      model_tags: []
+      warehouse_type: athena
+    tests: []
