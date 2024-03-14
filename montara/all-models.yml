@@ -1,0 +1,13 @@
+all_assets:
+  cleansed_customers:
+    name: cleansed_customers
+    description: ""
+    config:
+      materialized: table
+      table_type: iceberg
+      format: parquet
+    columns: []
+    meta:
+      model_tags: []
+      warehouse_type: athena
+    tests: []
