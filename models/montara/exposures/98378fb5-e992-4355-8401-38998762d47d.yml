@@ -1,0 +1,8 @@
+version: 2
+montara_exposures:
+  - name: 98378fb5-e992-4355-8401-38998762d47d
+    label: test_dadi
+    type: analysis
+    depends_on: []
+    owner:
+      email: 214d3895-e946-435f-ab89-5e1734b7bcc5
